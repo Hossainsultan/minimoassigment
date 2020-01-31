@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Oswald:300,400,500,600&display=swap');
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+*{
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #636363;
+}
+header{
+	padding: 20px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+	padding: 15px;
+	display: block;
+}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+	color: #636363;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 15px;
+	display: inline-block;
+}
+nav ul li a:hover{
+	color: black;
+}
+/* article_section */
+.article_section{}
+article{
+    padding: 50px;
+}
+h6{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0;
+}
+p{}
+.comment{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    color: #636363;
+}
+
+/*post_section*/
+
+.post_section{}
+.post{
+    width: 50%;
+    float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.post img{
+    width: 100%;
+    display: block;
+}
+
+/*footer*/
+footer{
+    background-color: #dcdcdc;
+    padding: 30px;
+}
+.footer_menu{
+    width: 50%;
+    float: left;
+}
+.footer_menu ul{
+    margin: 0;
+    padding: 0;
+}
+.footer_menu ul li{
+    float: left;
+}
+.footer_menu ul li a {
+    color: #636363;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+}
+.footer_menu ul li a:hover{}
+.social_icon{
+}
+.social_icon ul{
+	margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.social_icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social_icon ul li a{
+	 color: #636363;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+}
+.social_icon ul li a:hover{
+	color: black;
+}
